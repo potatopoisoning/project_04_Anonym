@@ -1,0 +1,207 @@
+a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+ul {
+  list-style: none;
+}
+
+/* 占쎄땀�뜮袁㏃쓺占쎌뵠占쎈�� 筌롫뗀�뤀 */
+.nav-menu {
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.nav-menu li {
+  margin: 0px 35px;
+}
+
+.implyeement_apply {
+  margin: 5px 0px;
+}
+
+.volunteer_management {
+  margin: 5px 0px;
+}
+
+.implyeement_apply:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.volunteer_management:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.freeboard:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.companyinfo:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.applyinfo:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.companyservice:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* 嚥≪뮄�젃占쎌뵥 占쎌돳占쎌뜚揶쏉옙占쎌뿯 */
+.login:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.join:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* 筌롫뗄�뵥 �뚢뫂�믭옙�뵠占쎄섐 揶쏄쑨爰� 鈺곌퀣�젟 */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.div_container {
+  width: 100%; /* 占쎈툡占쎌뒄占쎈퓠 占쎈뎡占쎌뵬 占쎄섐�뜮占� 占쎄퐬占쎌젟 */
+  max-width: 800px; /* 筌ㅼ뮆占� 占쎄섐�뜮占� 占쎄퐬占쎌젟 (占쎈툡占쎌뒄占쎈퓠 占쎈뎡占쎌뵬 鈺곌퀣�젟) */
+  margin: 0 auto; /* 餓λ쵐釉� 占쎌젟占쎌졊 */
+  display: flex; /* Flexbox 占쎄텢占쎌뒠 */
+  flex-direction: column; /* 占쎄쉭嚥∽옙 獄쎻뫚堉�占쎌몵嚥∽옙 占쎌젟占쎌졊 */
+  align-items: center; 
+}
+
+/* 占쎌뵥疫꿸퀗占� �뵳�딅뮞占쎈뱜(占쎌쁽占쎌� 野껊슣�뻻占쎈솇) */
+.board-container {
+  width: 80%; /* 疫꿸퀣�� 占쎄섐�뜮占� 占쎌�筌욑옙 */
+  margin: 0 auto 80px auto; /* 餓λ쵐釉� 占쎌젟占쎌졊 */
+  display: flex;
+  flex-direction: column; /* 占쎄쉭嚥∽옙 獄쎻뫚堉�占쎌몵嚥∽옙 占쎌젟占쎌졊 */
+  align-items: center; /* 揶쏉옙占쎌뒲占쎈쑓 占쎌젟占쎌졊 */
+}
+
+/* 占쎌뵥疫꿸퀗占� �뵳�딅뮞占쎈뱜(筌�袁⑹뒠占쎌젟癰귨옙) */
+.apply_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding-bottom: 10px;
+}
+
+.apply-container {
+	min-width: 735px;
+    min-height: 630px;
+}
+
+.apply_list {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.apply_position {
+  position: relative;
+}
+
+.post {
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+
+.company_logo {
+  border: none;
+}
+
+.company_name {
+  font-size: 0.8rem;
+  color: rgb(124, 124, 124);
+}
+
+.company_title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(73, 73, 73);
+  padding: 5px 0px;
+  white-space: nowrap;          /* 한 줄로 표시 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.company_score {
+  font-size: 0.7rem;
+  color: rgb(124, 124, 124);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company_apply {
+  margin: 20px 40px;
+  width: 164px;
+  height: 179px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  width: 100%;
+}
+
+.pagination a {
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  /* border: 1px solid #ddd; */
+  margin: 0 4px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover,
+.pagination a.active {
+  font-weight: bold;
+}
+
+.implyeement_area {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px auto -20px;
+}
+
+.implyeement_write {
+  text-align: center;
+  display: block;
+  width: 7%;
+  line-height: 20px;
+  padding: 3px;
+  background-color: #4c7bc9;
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  margin-top: 20px;
+}

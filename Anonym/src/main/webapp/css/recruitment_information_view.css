@@ -1,0 +1,199 @@
+a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+ul {
+  list-style: none;
+}
+
+/* 占쎈쐻占쎈윞占쏙옙�뜝�럥�몡�넭怨λ즰占쎈쿊占쎈쐻占쎈윪�얠±�쐻占쎈윥�뜝�룞�삕 癲ル슢�닪占쏙옙�뜝�럥占� */
+.nav-menu {
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.nav-menu li {
+  margin: 0px 35px;
+}
+
+.implyeement_apply {
+  margin: 5px 0px;
+}
+
+.volunteer_management {
+  margin: 5px 0px;
+}
+
+.implyeement_apply:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.volunteer_management:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.summationboard:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.applyinfo:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.applyinfo:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.applyservice:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* 占쎌뒙占쎈룱獒뺢쒀�삕占쎌읇占쎈쐻占쎈윪�억옙 占쎈쐻占쎈윪占쎈쨧占쎈쐻占쎈윪占쎌맱占쎈쨬占쎈즸占쎌굲占쎈쐻占쎈윪�굢占� */
+.login:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.join:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* 癲ル슢�닪占쎈씔�뜝�럥�뜲 �뜝�럥�뒖泳�洹⑥삕沃섓옙占쎌굲�뜝�럥�꼧占쎈쐻占쎈윞占쎄섯 占쎈쨬占쎈즲占쎈쳟占쎈뙀�뜝占� 占쎈뙑�⑤슦占쏙퐦�삕占쎌젳 */
+.main-container {
+  padding: 50px 20px;  
+}
+
+.board-container {
+  margin-top: 20px;
+}
+
+
+/* 占쎈섀饔낅챸占쏙퐜罹녶뜝占� 占쎈쐻占쎈윪占쎌젳占쎌녃域밟뫁�굲 */
+.apply {
+  width: 80%;
+  margin: 50px auto 10px auto;
+  font-size: 0.9rem;
+}
+
+.apply_title_container {
+  width: 80%;
+  margin: 0px auto;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 7px;
+}
+
+.apply_title {
+  margin: 5px 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.apply_addr {
+  margin: 5px 0px;
+  font-size: 0.8rem;
+  color: rgb(100, 100, 100);
+}
+
+.apply_content_container {
+  width: 80%;
+  min-height: 500px;
+  margin: 0px auto;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 7px;
+}
+
+/* 占쎈섀饔낅챸占쏙퐜罹놅옙猷욑옙�굲�뜝�럩�젳占쎌녃域밟뫁�굲 占쎈쐻占쎈윪占쎈�듸옙�쐻占쎈윥占쎈뭿 */
+.summation_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 40px auto 10px auto;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding-bottom: 10px;
+}
+
+.summation_container {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.summation_list_container {
+  border: 1px solid rgb(223, 223, 223);
+  margin: 5px auto;
+  width: 350px;
+  height: 105px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.summation_list_item {
+  margin: 10px 10px;
+  font-size: 0.8rem;
+  color: rgb(100, 100, 100);
+}
+.summation_list_itembox .summation_list_item {
+	width: 39px;
+}
+/* 癲ル슣�돸占쎌굲占쎈쐻占쎈윪占쎌맱占쎈쐻占쎈윥�뵳占쏙옙堉⑨옙癒��굲 */
+.apply_button {
+  display: block;
+  width: 30%;
+  margin: 24px auto 0px;
+  background-color: #4c7bc9;
+  line-height: 48px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+/* 占쎈쐻占쎈윪�앓룸섀饔낅챸占쎌���삕亦낆���삕占쎈쳟占쎌굲 */
+.favor_apply_area {
+  width: 15%;
+}
+
+.main-container {
+  text-align: center;
+  width : 90%;
+  max-width: 1200px;
+  padding: 50px 20px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.viewBtn {
+  background-color: #4c7bc9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.viewBtn:last-child {
+  margin-right: 0; /* 癲ル슢�뵯占쎌맆占쎈쐻占쎈짗壤쏅틶�쐻�뜝占� 占쎈탶�⑤슣維볟뜝�럥愿륅옙�쐻占쎈윪甕곤옙 占쎈쐻占쎈윪亦낅〕�삕筌뤿뙋彛쀨쥈醫됯뎅 占쎈쐻占쎈윥占쎈염占쎈쎗占쎈즸占쎌굲 占쎈쐻占쎈윪占쎌졆癲꾧퀗��占쎌굲 */
+}
+
+.viewBtn:hover {
+  background-color: #3a5a9e;
+}

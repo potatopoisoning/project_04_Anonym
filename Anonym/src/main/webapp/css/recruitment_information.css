@@ -1,0 +1,261 @@
+a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+/* ul {
+  list-style: none;
+}
+ */
+/* �뜝�럥�맶�뜝�럥�쐾�뜝�룞�삕占쎈쐻占쎈윥占쎈ぁ占쎈꽠�ⓑ살┛�뜝�럥荑듿뜝�럥�맶�뜝�럥�쑋占쎌뼚짹占쎌맶�뜝�럥�쑅占쎈쐻占쎈짗占쎌굲 �솾�꺂�뒧占쎈떔�뜝�룞�삕占쎈쐻占쎈윥�뜝占� */
+
+.dropdown_content .dropdown_1st {
+	margin: 10px 30px;
+}
+
+.dropdown_content .dropdown_2nd {
+	margin: 10px 30px;
+}
+	
+.nav-menu {
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.nav-menu li {
+  margin: 0px 35px;
+}
+
+.implyeement_apply,
+.volunteer_management {
+  margin: 5px 0px;
+}
+
+.implyeement_apply:hover,
+.volunteer_management:hover,
+.freeboard:hover,
+.companyinfo:hover,
+.applyinfo:hover,
+.companyservice:hover,
+.login:hover,
+.join:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* �솾�꺂�뒧占쎈떔�뜝�럥�뵒占쎈쐻占쎈윥占쎈쑓 占쎈쐻占쎈윥占쎈뮇力놂옙域밟뫁�굲亦껋꼻�삕�뜝�럩援뀐옙�쐻占쎈윥占쎄샹�뜝�럥�맶�뜝�럥�쐾�뜝�럡�꽢 �뜝�럥夷у뜝�럥利꿨뜝�럥爾잌뜝�럥��占쎈쐻�뜝占� �뜝�럥�솑占썩뫀�뒭�뜝�룞�맔占쎌굲�뜝�럩�졂 */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* �뜝�럥�맶�뜝�럥�쑋占쎌븪�벉�맶�뜝�럥�쑅�뛾占쏙옙萸울옙�뮋�뜝�럥�솕�뜝�럩援� �뜝�럥�늾占쎈쇊癰귨옙占쎄뎡�뜝�럥�맶�뜝�럥�쐾�뜝�럥猷� */
+.main_apply {
+  text-align: center;
+}
+
+.intro {
+  width: 80%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* �뜝�럥�맶�뜝�럥�쑋占쎌븪�벉�맶�뜝�럥�쑅�뛾占쏙옙萸울옙�뮋�뜝�럥�솕�뜝�럩援� �뜝�럥�늾占쎈쇊癰귨옙占쎄뎡�뜝�럥�맶�뜝�럥�쐾�뜝�럥猷� */
+.intro input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #c9c9c9;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 0.9rem;
+}
+
+.intro input::placeholder {
+  font-size: 0.9rem;
+}
+
+.div_container {
+  display: flex;
+  width: 80%;
+}
+
+/* �뜝�럥�맶�뜝�럥�쑋占쎌븪猷몄�耀붾굝梨멨뜝�럩占싸살맶占쎈쐻�뜝占� 占쎈쐻占쎈윥占쎈젗占쎈쐻占쎈윥�걡�뼍吏놅옙�돥占쎌맶�뜝�럥�쑅�뛾占썲뜝占�(�뜝�럥�맶�뜝�럥�쑋�뜝�럡猿묈뜝�럥�맶�뜝�럥�쑋占쎈쐻�뜝占� �뜝�럥�늾占쎈쇊占쎈늉占쎈츧占쎈쐻占쎈윥筌묕퐦�삕占쎌맶�뜝�럥�쑅�뜝�럥爰�) */
+.board-container {
+  width: 80%;
+  margin: 0px 0px 80px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* �뜝�럥�맶�뜝�럥�쑋占쎌븪猷몄�耀붾굝梨멨뜝�럩占싸살맶占쎈쐻�뜝占� 占쎈쐻占쎈윥占쎈젗占쎈쐻占쎈윥�걡�뼍吏놅옙�돥占쎌맶�뜝�럥�쑅�뛾占썲뜝占�(�솾�꺂�뒱占쎌굲占쎈꽠�⑨퐢爾닷뜝�럥痢쎾뜝�럥�맶�뜝�럥�쑋�뜝�럩�졂�뜝�럩�뀇�윜諛잙쳛占쎄뎡) */
+.apply_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding-bottom: 10px;
+  margin-top: 20px;
+  min-width: 735px;
+}
+
+.apply-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 735px;
+  min-height: 630px;
+}
+
+.apply_list {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.apply_position {
+  position: relative;
+}
+
+.post {
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+
+.company_logo {
+  border: none;
+}
+
+.company_name {
+  font-size: 0.8rem;
+  color: rgb(124, 124, 124);
+}
+
+.company_title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(73, 73, 73);
+  padding: 5px 0px;
+  white-space: nowrap;          /* �븳 以꾨줈 �몴�떆 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.company_score {
+  font-size: 0.7rem;
+  color: rgb(124, 124, 124);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company_apply {
+  margin: 20px 40px;
+  width: 164px;
+  height: 179px;
+}
+
+/* �솾�꺂�뒗占쎄콬�뜏類ｋ룏占쎌굲嶺뚮쵓�삕 占쎈쐻占쎈윥占쎈젗占쎈쐻占쎈윥�걡�뼍吏놅옙�돥占쎌맶�뜝�럥�쑅�뛾占썲뜝占� */
+aside {
+  margin: 0px 40px;
+}
+
+.aside_container {
+  margin-left: 35px;
+  width: 199px;
+  height: 725px;
+  background-color: rgb(248, 248, 248);
+}
+
+.new_apply_list_title {
+  font-size: 0.8rem;
+  color: rgb(124, 124, 124);
+  font-weight: bold;
+  margin: 10px;
+  text-align: left;
+  padding-top: 15px;
+  
+}
+
+.new_apply_list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 0px;
+  width: 199px;
+  height: 48px;
+}
+
+.new_apply_list img {
+  margin: 0px 7px;
+}
+
+.new_apply_company_name {
+  font-size: 0.75rem;
+  color: rgb(124, 124, 124);
+}
+
+.new_apply_title {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: rgb(73, 73, 73);
+  white-space: nowrap;          /* �븳 以꾨줈 �몴�떆 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  width: 100%;
+}
+
+.pagination a {
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  /* border: 1px solid #ddd; */
+  margin: 0 4px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover,
+.pagination a.active {
+  font-weight: bold;
+}
+
+.implyeement_area {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px auto -20px;
+}
+
+.implyeement_write {
+  text-align: center;
+  display: block;
+  width: 7%;
+  line-height: 20px;
+  padding: 3px;
+  background-color: #4c7bc9;
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
