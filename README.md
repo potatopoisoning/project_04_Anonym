@@ -108,7 +108,8 @@
 2. 기업리뷰 게시글 1개 표시
 3. 기업커뮤니티 게시글 1개 표시
 
-![비회원정보](https://github.com/user-attachments/assets/c1c0a3ec-7281-4b80-a298-90ecfc10cc31)
+<br><br>
+
 ![9](https://github.com/user-attachments/assets/45f26e9b-4ae2-44b9-a1b5-858b50d8cb14)
 
 비회원이거나 재직중인 회사가 아닐 경우 커뮤니티 메뉴와 글은 숨겨짐
