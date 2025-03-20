@@ -1,5 +1,6 @@
 # Anonym
-- **링크** - [Anonym - 직장인 익명 커뮤니티](http://52.79.242.234:8080/Anonym/index.jsp) / **ppt** - 
+- **링크** - [Anonym - 직장인 익명 커뮤니티](http://52.79.242.234:8080/Anonym/index.jsp) / **ppt** - [AWS_1차](https://github.com/user-attachments/files/19360680/_AWS_1.pdf)
+
 - 관리자 - ID: admin / PW: admin
 - 개인회원 1(무직) - ID: unemployed / PW: qq11!!  
 - 개인회원 2(재직) - ID: ezenman / PW: qq11!!
